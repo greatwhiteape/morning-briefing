@@ -1,0 +1,8 @@
+packages:
+  - name: briefing
+    functions:
+      - name: morning
+        runtime: python:3.11
+        limits:
+          timeout: 30000
+          memory: 256
